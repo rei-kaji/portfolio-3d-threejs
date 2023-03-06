@@ -18,10 +18,10 @@ const Stars = (props) => {
 
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
-      // Grouping set of objects with three axis rotation values in radians.
+      {/* // Grouping set of objects with three axis rotation values in radians. */}
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
-        // Points is a component to position spheres in 3D graphics with ref to
-        group, sphere positions and other props.
+        {/* // Points is a component to position spheres in 3D graphics with ref to
+        group, sphere positions and other props. */}
         <PointMaterial
           transparent
           color="#f272c8"
@@ -29,7 +29,7 @@ const Stars = (props) => {
           sizeAttenuation={true}
           depthWrite={false}
         />
-        // Material definition for a single point
+        {/* // Material definition for a single point */}
       </Points>
     </group>
   );
@@ -39,16 +39,17 @@ const StarsCanvas = () => {
   // Function component named StarsCanvas
   return (
     <div className="w-full h-auto absolute inset-0 z-[-1]">
-      // Div container with classnames and formatting style
+      {/* // Div container with classnames and formatting style */}
       <Canvas camera={{ position: [0, 0, 1] }}>
-        // Canvas is a default 3D object where the scene is drawn using camera
-        coordinates.
+        {/* // Canvas is a default 3D object where the scene is drawn using camera
+        coordinates. */}
         <Suspense fallback={null}>
-          // Suspense coiling to deviate rendering logic to definite conditions
-          <Stars /> // calling Stars function in Suspense
+          {/* // Suspense coiling to deviate rendering logic to definite conditions
+           calling Stars function in Suspense*/}
+          <Stars />
         </Suspense>
-        <Preload all /> // Fetches urls per asset and detects loading success or
-        failure
+        {/* // Fetches urls per asset and detects loading success or failure */}
+        <Preload all />
       </Canvas>
     </div>
   );
