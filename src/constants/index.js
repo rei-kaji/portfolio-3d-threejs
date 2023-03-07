@@ -266,7 +266,7 @@ const projects = [
   {
     name: "Fitness App",
     description:
-      "Using RappidAPI. You can search and learn how to make your body strong.",
+      "Using RappidAPI to get the fitness data. You can search and learn how to make your body strong. It show the animation so you can do easy!",
     tags: [
       {
         name: "react",
