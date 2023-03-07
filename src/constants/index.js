@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  csharp,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +48,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DataBase Developer",
+    icon: mobile,
+  },
+  {
+    title: "Mentor",
     icon: creator,
   },
 ];
@@ -81,8 +83,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "C#",
+    icon: csharp,
   },
   {
     name: "Tailwind CSS",
