@@ -35,7 +35,26 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import imagegenerator from "./portfolio/ai-image-generator.png";
+import eventbbs from "./portfolio/event-bbs.jpg";
+import fakemario from "./portfolio/FakeMarioImage.png";
+import fitness from "./portfolio/fitness.png";
+import note from "./portfolio/note.png";
+import pokemon from "./portfolio/pokemon-picture-book.png";
+import portfolio from "./portfolio/portfolio.png";
+import stoprygenerator from "./portfolio/storygenerator.png";
+import teslaimitate from "./portfolio/tesla.png";
+
 export {
+  imagegenerator,
+  eventbbs,
+  fakemario,
+  fitness,
+  note,
+  pokemon,
+  portfolio,
+  teslaimitate,
+  stoprygenerator,
   logo,
   rei_logo,
   backend,

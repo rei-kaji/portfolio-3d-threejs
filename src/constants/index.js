@@ -27,6 +27,15 @@ import {
   threejs,
   csharp,
   nextjs,
+  imagegenerator,
+  eventbbs,
+  fakemario,
+  fitness,
+  note,
+  pokemon,
+  portfolio,
+  teslaimitate,
+  stoprygenerator,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +55,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -58,7 +67,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Mentor",
+    title: "Project Manager",
     icon: creator,
   },
 ];
@@ -203,9 +212,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Image Generator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI image generator website. It uses OpenAI's Image Generator API and React/Tailwind for frontend, Express/MongoDB for backend, and Cloudinary for image storage.",
     tags: [
       {
         name: "react",
@@ -219,51 +228,128 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: imagegenerator,
+    source_code_link: "https://github.com/rei-kaji/AI-Image-Generator",
+    demo: "https://rei-ai-image-generator.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Story Generator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This app uses OpenAI's API to generate a story based on a title, genre, and keywords. It also automatically generates images based on the keywords. It's a powerful tool for storytellers, novelists, filmmakers, and game developers.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+    ],
+    image: stoprygenerator,
+    source_code_link: "https://github.com/rei-kaji/Story-Generator.git",
+    demo: "https://story-generator.vercel.app/auth/register",
+  },
+  {
+    name: "Fitness App",
+    description:
+      "Using RappidAPI. You can search and learn how to make your body strong.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "RappidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MUI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: fitness,
+    source_code_link: "https://github.com/rei-kaji/fitness-app",
+    demo: "https://rei-fitness.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Event BBS",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "My friend and I created a service to solve the problem of not knowing if there are people playing soccer or basketball at Vancouver's parks. Users can form teams and find other players through the service, making it easier to play the game they love.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MUI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: eventbbs,
+    source_code_link: "https://github.com/rei-kaji/event-bbs",
+    demo: "https://event-bbs.web.app",
+  },
+  {
+    name: "Portfolio in full scratch",
+    description:
+      "Features include full-scratch overall creation, floating menus, and CSS animations implemented.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/rei-kaji/portfolio-react",
+    demo: "https://rei-portfolio.netlify.app/#home",
+  },
+  {
+    name: "Fake Mario Maker",
+    description:
+      "This is an application that allows you to freely create and play with fields and enemies like MarioMaker.",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Unity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Visual Studio",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fakemario,
+    source_code_link: "https://github.com/rei-kaji/FakeMario.git",
+    demo: "",
   },
 ];
 
