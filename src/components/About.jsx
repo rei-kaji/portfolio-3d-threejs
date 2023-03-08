@@ -39,10 +39,11 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm skilled full-stack developer with experience in C#, Java, SQL and
-        Javascript, amd expertise in frameworks like .Net, Next.js, Node.js. I
-        have 5+ years of experience developing complex applications and had the
-        opportunity to manage projects. I'm looking to work with small or large
-        teams in agile startup environments.
+        Javascript, and expertise in frameworks like .Net, Next.js. I have 5+
+        years of experience developing complex applications and had the
+        opportunity to manage projects.
+        <br className="sm:block hidden" /> I'm looking to work with small or
+        large teams in agile startup environments.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
