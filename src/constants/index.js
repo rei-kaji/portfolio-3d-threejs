@@ -331,7 +331,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/rei-kaji/portfolio-react",
-    demo: "https://rei-portfolio.netlify.app/#home",
+    demo: "https://rei-portfolio-2.netlify.app/#home",
   },
   {
     name: "Fake Mario Maker",
