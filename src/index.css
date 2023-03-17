@@ -202,3 +202,13 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+iframe {
+  block-size: 1rem;
+  border: none;
+  inline-size: 10rem;
+  /* margin: auto; */
+  overflow: hidden;
+  opacity: 0.7;
+  background-color: #000000;
+}
