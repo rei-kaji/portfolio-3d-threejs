@@ -36,6 +36,8 @@ import {
   portfolio,
   teslaimitate,
   stoprygenerator,
+  threeportfolio,
+  reiflix,
 } from "../assets";
 
 export const navLinks = [
@@ -216,32 +218,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "AI Image Generator",
-    description:
-      "AI image generator website. It uses OpenAI's Image Generator API and React/Tailwind for frontend, Express/MongoDB for backend, and Cloudinary for image storage.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "white-text-gradient",
-      },
-    ],
-    image: imagegenerator,
-    source_code_link: "https://github.com/rei-kaji/AI-Image-Generator",
-    demo: "https://rei-ai-image-generator.netlify.app/",
-  },
-  {
     name: "Story Generator",
     description:
       "This app uses OpenAI's API to generate a story based on a title, genre, and keywords. It also automatically generates images based on the keywords. It's a powerful tool for storytellers, novelists, filmmakers, and game developers.",
@@ -266,6 +242,86 @@ const projects = [
     image: stoprygenerator,
     source_code_link: "https://github.com/rei-kaji/Story-Generator.git",
     demo: "https://story-generator.vercel.app/auth/register",
+    feature: true,
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "This app is a clone of the Netflix. It uses Next.js, TypeScript, MongoDB, zustand, tailwind and swr to create a Netflix clone. You can watch movies and add them to your watchlist.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "white-text-gradient",
+      },
+    ],
+    image: reiflix,
+    source_code_link: "https://github.com/rei-kaji/netflix-clone",
+    demo: "https://reiflix-movie.vercel.app/",
+    feature: true,
+  },
+  {
+    name: "AI Image Generator",
+    description:
+      "AI image generator website. It uses OpenAI's Image Generator API and React/Tailwind for frontend, Express/MongoDB for backend, and Cloudinary for image storage.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "white-text-gradient",
+      },
+    ],
+    image: imagegenerator,
+    source_code_link: "https://github.com/rei-kaji/AI-Image-Generator",
+    demo: "https://rei-ai-image-generator.netlify.app/",
+  },
+  {
+    name: "3D Portfolio",
+    description:
+      "This portfolio website showcases 3D displays created using Three.js. Users can enjoy viewing PC models and shooting stars that appear to be floating within the website.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Motion",
+        color: "white-text-gradient",
+      },
+    ],
+    image: threeportfolio,
+    source_code_link: "https://github.com/rei-kaji/portfolio-3d-threejs",
+    demo: "https://rei-portfolio.netlify.app/",
   },
   {
     name: "Fitness App",

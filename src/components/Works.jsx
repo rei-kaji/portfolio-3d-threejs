@@ -16,16 +16,19 @@ const ProjectCard = ({
   image,
   source_code_link,
   demo,
+  feature,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "tween", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className={`bg-tertiary p-5 rounded-2xl sm:${
+          feature ? "w-[500px] bg-slate-800" : "w-[360px]"
+        } w-full`}
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -87,13 +90,13 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          links to code repositories and live demos. <br />
+          It reflects my ability to solve complex problems, work with different
+          technologies, and manage projects effectively.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

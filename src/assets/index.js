@@ -44,6 +44,8 @@ import pokemon from "./portfolio/pokemon-picture-book.png";
 import portfolio from "./portfolio/portfolio.png";
 import stoprygenerator from "./portfolio/storygenerator.png";
 import teslaimitate from "./portfolio/tesla.png";
+import threeportfolio from "./portfolio/threeportfolio.png";
+import reiflix from "./portfolio/reiflix.png";
 
 export {
   imagegenerator,
@@ -55,6 +57,8 @@ export {
   portfolio,
   teslaimitate,
   stoprygenerator,
+  threeportfolio,
+  reiflix,
   logo,
   rei_logo,
   backend,
