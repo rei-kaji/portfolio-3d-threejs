@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { rei_logo, menu, close } from "../assets";
+import ToggleLanguage from "../components/ToggleLanguage";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -39,6 +40,7 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li>{/* <ToggleLanguage /> */}</li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

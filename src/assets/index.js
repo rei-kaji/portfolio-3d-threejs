@@ -47,7 +47,12 @@ import teslaimitate from "./portfolio/tesla.png";
 import threeportfolio from "./portfolio/threeportfolio.png";
 import reiflix from "./portfolio/reiflix.png";
 
+import jp from "./jp.svg";
+import en from "./en.svg";
+
 export {
+  jp,
+  en,
   imagegenerator,
   eventbbs,
   fakemario,

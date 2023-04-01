@@ -38,6 +38,8 @@ import {
   stoprygenerator,
   threeportfolio,
   reiflix,
+  jp,
+  en,
 } from "../assets";
 
 export const navLinks = [
@@ -413,4 +415,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, jp, en };
