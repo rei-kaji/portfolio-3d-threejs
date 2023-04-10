@@ -26,8 +26,8 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className={`bg-tertiary p-5 rounded-2xl  w-full ${
-          feature ? "sm:w-[500px] sm:bg-slate-800" : "sm:w-[360px]"
+        className={`bg-[#0098b34b] p-5 rounded-2xl  w-full ${
+          feature ? "sm:w-[500px] sm:bg-[#26525a]" : "sm:w-[360px]"
         }`}
       >
         <div className="relative w-full h-[230px]">
