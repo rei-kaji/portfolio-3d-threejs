@@ -31,7 +31,7 @@ const ProjectCard = ({
         }`}
       > */}
       <div
-        className={`bg-[#0098b34b] p-5 rounded-2xl  w-full ${
+        className={`bg-[#0098b34b] p-5 rounded-2xl w-full hover:bg-[#0098b3b0] ${
           feature ? "sm:w-[500px] sm:bg-[#26525a]" : "sm:w-[360px]"
         }`}
       >
