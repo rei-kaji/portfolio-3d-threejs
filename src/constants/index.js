@@ -300,32 +300,6 @@ const projects = [
     demo: "https://rei-ai-image-generator.netlify.app/",
   },
   {
-    name: "3D Portfolio",
-    description:
-      "This portfolio website showcases 3D displays created using Three.js. Users can enjoy viewing PC models and shooting stars that appear to be floating within the website.",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Three.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Motion",
-        color: "white-text-gradient",
-      },
-    ],
-    image: threeportfolio,
-    source_code_link: "https://github.com/rei-kaji/portfolio-3d-threejs",
-    demo: "https://rei-portfolio.netlify.app/",
-  },
-  {
     name: "Fitness App",
     description:
       "Using RappidAPI to get the fitness data. You can search and learn how to make your body strong. It show the animation so you can do easy!",
@@ -346,6 +320,28 @@ const projects = [
     image: fitness,
     source_code_link: "https://github.com/rei-kaji/fitness-app",
     demo: "https://rei-fitness.netlify.app/",
+  },
+  {
+    name: "Portfolio in full scratch",
+    description:
+      "Features include full-scratch overall creation, floating menus, and CSS animations implemented.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/rei-kaji/portfolio-react",
+    demo: "https://rei-portfolio-2.netlify.app/",
   },
   {
     name: "Event BBS",
@@ -370,26 +366,30 @@ const projects = [
     demo: "https://event-bbs.web.app",
   },
   {
-    name: "Portfolio in full scratch",
+    name: "3D Portfolio",
     description:
-      "Features include full-scratch overall creation, floating menus, and CSS animations implemented.",
+      "This portfolio website showcases 3D displays created using Three.js. Users can enjoy viewing PC models and shooting stars that appear to be floating within the website.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Motion",
+        color: "white-text-gradient",
+      },
     ],
-    image: portfolio,
-    source_code_link: "https://github.com/rei-kaji/portfolio-react",
-    demo: "https://rei-portfolio-2.netlify.app/",
+    image: threeportfolio,
+    source_code_link: "https://github.com/rei-kaji/portfolio-3d-threejs",
+    demo: "https://rei-portfolio.netlify.app/",
   },
   {
     name: "Fake Mario Maker",

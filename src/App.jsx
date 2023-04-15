@@ -20,7 +20,7 @@ function App() {
         <div className="relative">
           <iframe
             src="https://rezmason.github.io/matrix/?width=120&font=gothic&effect=stripes&stripeColors=0,0.6,0.7"
-            frameborder="0"
+            frameBorder="0"
             className="absolute top-0 left-0 w-full h-full z-0"
           ></iframe>
           <Navbar />
