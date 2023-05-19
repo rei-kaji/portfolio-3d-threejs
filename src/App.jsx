@@ -23,11 +23,11 @@ function App() {
             frameBorder="0"
             className="absolute top-0 left-0 w-full h-full z-0"
           ></iframe> */}
-          <img
+          {/* <img
             src="../src/assets/heromatrics.jpg"
             alt="image"
             className="absolute top-0 left-0 w-full h-full z-0"
-          />
+          /> */}
           <Navbar />
           <Hero />
         </div>

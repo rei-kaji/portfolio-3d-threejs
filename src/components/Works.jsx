@@ -18,6 +18,9 @@ const ProjectCard = ({
   demo,
   feature,
 }) => {
+  const toDemo = () => {
+    window.open(demo, "_blank");
+  };
   return (
     <motion.div variants={fadeIn("up", "tween", index * 0.5, 0.75)}>
       {/* <Tilt
@@ -34,12 +37,13 @@ const ProjectCard = ({
         className={`bg-[#0098b34b] p-5 rounded-2xl w-full hover:bg-[#0098b3b0] ${
           feature ? "sm:w-[500px] sm:bg-[#26525a]" : "sm:w-[360px]"
         }`}
+        onClick={toDemo}
       >
         <div className="relative w-full h-[230px]">
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-fill rounded-2xl "
+            className="w-full h-full object-fill rounded-2xl"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">

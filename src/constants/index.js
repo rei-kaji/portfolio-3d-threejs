@@ -243,7 +243,7 @@ const projects = [
     ],
     image: stoprygenerator,
     source_code_link: "https://github.com/rei-kaji/Story-Generator.git",
-    demo: "https://story-generator.vercel.app/auth/register",
+    demo: "https://story-generator.vercel.app/auth/login",
     feature: true,
   },
   {
