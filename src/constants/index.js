@@ -341,7 +341,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/rei-kaji/portfolio-react",
-    demo: "https://rei-portfolio-2.netlify.app/",
+    demo: "https://rei-portfolio.netlify.app/",
   },
   {
     name: "Event BBS",
@@ -389,7 +389,7 @@ const projects = [
     ],
     image: threeportfolio,
     source_code_link: "https://github.com/rei-kaji/portfolio-3d-threejs",
-    demo: "https://rei-portfolio.netlify.app/",
+    demo: "https://rei-portfolio-3d.netlify.app/",
   },
   {
     name: "Fake Mario Maker",
